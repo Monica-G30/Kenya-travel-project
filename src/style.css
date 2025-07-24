@@ -9,8 +9,8 @@ body {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-    url("../images/downtown.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("../images/wilderness.png");
   background-repeat: no-repeat;
   color: white;
   background-size: cover;

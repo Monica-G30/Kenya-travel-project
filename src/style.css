@@ -20,13 +20,12 @@ body {
 }
 
 .img-responsive-2 {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
-  align-items: start;
 }
 
 .grid-3-columns {
@@ -42,11 +41,20 @@ body {
   margin: 30px 0;
 }
 
-.card body {
+.card-header.grid {
+  grid-gap: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.card-body {
   padding: 30px;
 }
 
-.card footer {
+.card-footer {
   padding: 0 30px 10px;
 }
 
@@ -209,7 +217,8 @@ footer a {
   color: white;
   opacity: 0.7;
 }
-@media (max-width-960px) {
+
+@media (max-width: 960px) {
   header {
     padding: 30px 0;
   }
@@ -228,5 +237,11 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }

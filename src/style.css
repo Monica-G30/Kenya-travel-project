@@ -184,8 +184,8 @@ main p {
 
 footer {
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url("../images/nanyuki4.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/croft.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
